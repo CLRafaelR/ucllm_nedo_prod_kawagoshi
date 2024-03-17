@@ -24,10 +24,15 @@ preprocessingディレクトリにいることを確認した上でセットア�
 
 ```sh
 $ pwd
-// ~/ucllm_redo_dev/preprocessing
+// ~/ucllm_redo_prod_kawagoshi/preprocessing
 $ sudo apt-get install git-lfs
 $ sudo apt-get install wget
 $ ./bin/setup
+```
+
+fastTextのダウンロード
+```sh
+pip install fasttext-langdetect
 ```
 
 ## 1. Download datasets
